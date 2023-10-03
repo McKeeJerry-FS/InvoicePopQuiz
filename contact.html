@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Contact Form</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/site.css">    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BS Forms </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/addressbook.html">Address Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact Form</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/invoice.html">Invoice</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+       <div class="container mt-5">
+           
+           <div class="border border-2 border-info shadow-lg p-2 text-dark bg-light">
+               <form action="#">
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label">First Name</label>
+                            <input type="text" name="firstName" class="form-control" placeholder="First Name" aria-label="First Name" required>
+                        </div>
+                        <div class="col">
+                            <label class="form-label">Last Name</label>
+                            <input type="text" name="lastName" class="form-control" placeholder="Last Name" aria-label="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label">E-Mail</label>
+                            <input type="email" name="email" class="form-control" placeholder="E-Mail" aria-label="Email" required>
+                        </div>
+                        <div class="col">
+                            <label class="form-label">Phone</label>
+                            <input type="tel" name="phone" class="form-control" placeholder="Phone" aria-label="Phone" required>
+                        </div>
+                    </div> 
+                    <div class="row mb-1">
+                        <div class="col">
+                            <label class="form-label">Subject</label>
+                            <input type="text" name="subject" class="form-control" placeholder="Subject" aria-label="Subject" required>
+                        </div>
+                    </div>   
+                    <div class="row mb-1">
+                        <div class="col">
+                            <label class="form-label">Message</label>
+                            <textarea type="text" name="message" class="form-control" placeholder="Message" aria-label="Message" required>
+                            </textarea>
+                        </div> 
+                    </div>      
+                        <button type="submit" class="btn btn-primary mt-2">Submit</button>
+                   </form>
+                </div>
+            </div>
+            <footer class="bg-dark text-secondary text-center py-3 fixed-bottom">
+                <div class="row">
+                    <div class="col-4 d-flex justify-content-left align-content-left ">
+                        Built by Jerry
+                    </div>
+                    <div class="col-4">
+                        Bootstrap Forms
+                    </div>
+                    <div class="col-4 justify-content-right align-content-right">
+                        Email: jerry.mckee.jr@outlook.com
+                    </div>
+                </div>
+              </footer>              
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
